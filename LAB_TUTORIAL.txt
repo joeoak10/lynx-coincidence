@@ -15,10 +15,6 @@ THE EXACT HARDWARE (from the photo of the rack)
     IBIS RBS    130.183.43.183   (labelled "Till")
     IBIS ERD    130.183.43.186
 
-NOTE ON NAMES
-    "lynx-coincidence" is only the NAME OF THE GITHUB REPO and of the folder
-    that  git clone  creates. It is not a script. The scripts you run are the
-    two below. Both always use TWO Lynx boxes (IBIS Prot + S Alpha).
 
 THE SCRIPTS (use only these two)
     lynx_measure.py       the real measurement
@@ -36,16 +32,6 @@ WHAT YOU GET (data files) - every run makes a new folder
         run_meta.json     all settings of the run
     Fake runs get FAKE_ in the folder name automatically. Test runs get TEST_.
 
-
-==============================================================================
-PHASE 0 - BRING
-==============================================================================
-[ ] Notebook + pen (or this file printed)
-[ ] USB stick containing: the repo ZIP, and the vendor DataTypes folder
-[ ] Am-241 alpha source (or ask for the lab one) for calibration
-[ ] Ethernet cable
-[ ] Two detectors + preamps (or know where they are) and a BNC cable for the
-    sync connection if none is installed
 
 
 ==============================================================================
