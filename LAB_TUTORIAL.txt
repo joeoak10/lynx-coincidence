@@ -3,18 +3,10 @@ LAB PROCEDURE - proton/alpha coincidence measurement, two Lynx boxes
 IPP Garching rack:  IBIS Prot (proton)  +  S Alpha (alpha)
 Repository: https://github.com/joeoak10/lynx-coincidence
 ==============================================================================
-Follow the steps in order. Anyone can repeat this without asking the author.
-Lines starting with   >   are typed into Command Prompt (cmd), then Enter.
-Text in <angle brackets> = replace with your value.
-"STOP" = do not continue until the problem is solved.
 
-THE EXACT HARDWARE (from the photo of the rack)
+THE EXACT HARDWARE
     IBIS Prot   130.183.43.184   input 1 = PROTON detector   (sync MASTER)
     S Alpha     130.183.43.185   input 1 = ALPHA  detector   (sync SLAVE)
-    Do NOT touch the other two boxes:
-    IBIS RBS    130.183.43.183   (labelled "Till")
-    IBIS ERD    130.183.43.186
-
 
 THE SCRIPTS (use only these two)
     lynx_measure.py       the real measurement
@@ -31,7 +23,6 @@ WHAT YOU GET (data files) - every run makes a new folder
         spectra.png       quick-look plots
         run_meta.json     all settings of the run
     Fake runs get FAKE_ in the folder name automatically. Test runs get TEST_.
-
 
 
 ==============================================================================
